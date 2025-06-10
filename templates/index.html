@@ -64,6 +64,14 @@
                                 </div>
                             </div>
                             
+                            <div class="card-body d-flex flex-column">
+                                        <!-- Loading Indicator -->
+                                <div id="loading" style="display:none;">
+                                    <div class="spinner-border text-primary" role="status"></div>
+                                    <span> Models training, please wait...</span>
+                                </div>
+                            </div>
+
                             <div class="mt-auto d-grid gap-2">
                                 <button class="btn btn-success" type="submit">
                                     <i class="bi bi-play-fill me-1"></i>Run
@@ -72,15 +80,14 @@
                                     <i class="bi bi-trash me-1"></i>Clear Models
                                 </button>
                             </div>
+
+  
                         </form>
                     </div>
+
+
                 </div>
                 
-                <!-- Loading Indicator -->
-                <div id="loading" style="display:none;">
-                    <div class="spinner-border text-primary" role="status"></div>
-                    <span>Models training, please wait...</span>
-                </div>
             </div>
 
             <!-- Results Column -->
